@@ -8,6 +8,11 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
@@ -20,6 +25,7 @@
     "@angular/router": "^16.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "wasm-feature-detect": "^1.5.1",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
